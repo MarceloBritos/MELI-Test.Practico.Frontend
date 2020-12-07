@@ -1,0 +1,21 @@
+{
+  "name": "meli-test.practico.backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "meli-api-remote"
+  },
+  "author": "Britos Marcelo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "debug": "^4.2.0",
+    "express": "^4.17.1"
+  }
+}

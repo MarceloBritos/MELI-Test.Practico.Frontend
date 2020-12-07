@@ -1,0 +1,65 @@
+@import 'variables';
+
+html,
+body,
+div#root {
+    height: 100%;
+    box-sizing: border-box;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0;
+}
+*,
+:after,
+:before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: $dark-gray;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: $dark-gray;
+}
+
+::-ms-input-placeholder {
+    color: $dark-gray;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+    src: url(../assets/fonts/proximanova-light.woff2) format('woff2'),
+        url(../assets/fonts//proximanova-light.woff) format('woff'),
+        url(../assets/fonts//proximanova-light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+    src: url(../assets/fonts//proximanova-regular.woff2) format('woff2'),
+        url(../assets/fonts//proximanova-regular.woff) format('woff'),
+        url(../assets/fonts//proximanova-regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+    src: url(../assets/fonts//proximanova-semibold.woff2) format('woff2'),
+        url(../assets/fonts//proximanova-semibold.woff) format('woff'),
+        url(../assets/fonts//proximanova-semibold.ttf) format('truetype');
+}
+
+body {
+    background-color: $light-gray;
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova', -apple-system, 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif, sans-serif;
+}

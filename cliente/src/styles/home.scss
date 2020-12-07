@@ -1,0 +1,14 @@
+@import 'variables';
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 15px;
+    h1 {
+        color: $gray;
+        text-align: center;
+        font-size: 24px;
+    }
+}
